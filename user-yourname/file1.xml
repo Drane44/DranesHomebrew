@@ -2,11 +2,31 @@
 <elements>
 	<info>
 		<name>File 1</name>
-		<update version="1.0.0">
+		<update version="1.1.0">
 			<file name="file1.xml" url="https://raw.githubusercontent.com/drane44/DranesHomebrew/master/user-Drane/file1.xml" />
 		</update>
 	</info>
 	
-	<!-- place your elements here -->
+	<element name="Verdanite spear, +1" type="Magic Item" source="user.index" id="Verdanite_spear_UNCOMMON">
+  <description>
+    <p>This Green spear forged form Verdanite glimmers with light. While holding this magic weapon, you gain a bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the spear as a spellcasting focus for your druid and ranger spells.</p>
+    <p class="indent">When you cast a spell that restores hit points, you can roll a d4 and add the number rolled to the amount of hit points restored, provided you are holding the spear.</p>
+  </description>
+  <setters>
+    <set name="keywords">spear, druid, ranger, spellcasting focus</set>
+    <set name="category">Magic Weapons</set>
+    <set name="type" addition="spear">Weapon</set>
+    <set name="rarity">Uncommon</set>
+    <set name="weapon">spear</set>
+    <set name="attunement" addition="by a druid or ranger">true</set>
+    <set name="enhancement">1</set>
+  </setters>
+  <rules>
+    <stat name="druid:spellcasting:attack" value="1" bonus="Verdanite spear" />
+    <stat name="druid:spellcasting:dc" value="1" bonus="Verdanite spear" />
+    <stat name="ranger:spellcasting:attack" value="1" bonus="Verdanite spear" />
+    <stat name="ranger:spellcasting:dc" value="1" bonus="Verdanite spear" />
+  </rules>
+</element>
 	
 </elements>
