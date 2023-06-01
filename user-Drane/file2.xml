@@ -8,10 +8,10 @@
 	</info>
 	<element>
 	<element name="Verdanite Saber, " type="Magic Item" source="user.index" id="Verdanite_Saber_Rare">
-<description>
+	<description>
     <p>This item appears to be a longsword hilt. While grasping the hilt, you can use a bonus action to cause a blade of pure energy to spring into existence, or make the blade disappear.</p>
-<p class="indent"While the blade exists, this magic longsword shines a jade green light. If you are profecient with Longswords you are proficent with the Verdanite Saber. You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing when you hit and undead with it that target takes an extra 1d8 of radiant damage.The swords luminous blade emits a bright light 15 foot radius and dim light for an additional 15 feet. While the blade persists, you can use an action to expand ot reduce its radius of bright and dim light by 5 feet each, to a maximum of 30 feet or a minimum of 10 feet each.</p>
-</description>
+    <p class="indent"While the blade exists, this magic longsword shines a jade green light. If you are profecient with Longswords you are proficent with the Verdanite Saber. You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing when you hit and undead with it that target takes an extra 1d8 of radiant damage.The swords luminous blade emits a bright light 15 foot radius and dim light for an additional 15 feet. While the blade persists, you can use an action to expand ot reduce its radius of bright and dim light by 5 feet each, to a maximum of 30 feet or a minimum of 10 feet each.</p>
+	</description>
   <setters>
     <set name="keywords">Longsword</set>
     <set name="category">Magic Weapons</set>
