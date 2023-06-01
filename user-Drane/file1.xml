@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>File 1</name>
-		<update version="1.1.0">
+		<update version="1.1.1">
 			<file name="file1.xml" url="https://raw.githubusercontent.com/drane44/DranesHomebrew/master/user-Drane/file1.xml" />
 		</update>
 	</info>
@@ -28,7 +28,6 @@
     <stat name="ranger:spellcasting:dc" value="1" bonus="Verdanite spear" />
   </rules>
 </element>
-<?xml version="1.0" encoding="utf-8"?>
 <element name="Verdanite Saber, " type="Magic Item" source="user.index" id="Verdanite_Saber_Rare">
   <description>
     <p>This item appears to be a longsword hilt.
