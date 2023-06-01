@@ -1,5 +1,5 @@
-# repositoryname
-additional content to extend [Aurora](https://aurorabuilder.com/), by yourname
+# DranesHomebrew
+additional content to extend [Aurora](https://aurorabuilder.com/), by Drane
 
 index url: https://raw.githubusercontent.com/drane44/DranesHomebrew/master/user-Drane.index
 
