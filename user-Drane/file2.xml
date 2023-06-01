@@ -2,12 +2,44 @@
 <elements>
 	<info>
 		<name>File 2</name>
-		<update version="1.1.0">
+		<update version="1.2.0">
 			<file name="file2.xml" url="https://raw.githubusercontent.com/drane44/DranesHomebrew/master/user-Drane/file2.xml" />
 		</update>
 	</info>
 	
-
+<?xml version="1.0" encoding="utf-8"?>
+<element name="Verdanite Saber, " type="Magic Item" source="user.index" id="Verdanite_Saber_Rare">
+  <description>
+    <p>This item appears to be a longsword hilt.
+While grasping the hilt, you can use a bonus action to
+cause a blade of pure energy to spring into existence, or
+make the blade disappear. While the blade exists, this
+magic longsword shines a jade green light. If you are
+proficient with shortswords or longswords, you are
+proficient with the sun blade.
+You gain a +2 bonus to attack and damage rolls made
+with this weapon, which deals radiant damage instead of
+slashing damage. When you hit an undead with it, that
+target takes an extra 1d8 radiant damage.
+</p>
+    <p class="indent">The sword's luminous blade emits bright light in a 15-
+foot radius and dim light for an additional 15 feet. While
+the blade persists, you can use an action to expand or
+reduce its radius of bright and dim light by 5 feet each,
+to a maximum of 30 feet each or a minimum of 10 feet
+each.</p>
+  </description>
+  <setters>
+    <set name="keywords">Longsword</set>
+    <set name="category">Magic Weapons</set>
+    <set name="type" addition="Longsword">Weapon</set>
+    <set name="rarity">Rare</set>
+    <set name="weapon">Longsword</set>
+    <set name="attunement" addition="by a creature proficent in longswords">true</set>
+    <set name="enhancement">2</set>
+  </setters>
+  <rules>
+  </rules>
 </element>
 	
 </elements>
