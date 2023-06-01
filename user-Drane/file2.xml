@@ -2,11 +2,11 @@
 <elements>
 	<info>
 		<name>File 1</name>
-		<update version="1.2.0">
-			<file name="file2xml" url="https://raw.githubusercontent.com/drane44/DranesHomebrew/master/user-Drane/file2.xml"/>
+		<update version="1.1.0">
+			<file name="file2.xml" url="https://raw.githubusercontent.com/drane44/DranesHomebrew/master/user-Drane/file2.xml" />
 		</update>
 	</info>
-	
+
 	<element name="Verdanite Saber, " type="Magic Item" source="user.index" id="Verdanite_Saber_Rare">
   <description>
     <p>This item appears to be a longsword hilt.
@@ -39,6 +39,6 @@ each.</p>
   </setters>
   <rules>
   </rules>
-	
+</element>
 
 </elements>
