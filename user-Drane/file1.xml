@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>File 1</name>
-		<update version="1.2.0">
+		<update version="1.2.1">
 			<file name="file1.xml" url="https://raw.githubusercontent.com/drane44/DranesHomebrew/master/user-Drane/file1.xml" />
 		</update>
 	</info>
