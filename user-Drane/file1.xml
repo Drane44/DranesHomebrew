@@ -1,20 +1,12 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<elements>
+<?xml version="1.0" encoding="utf-8" ?><elements>
 	<info>
 		<name>File 1</name>
-		<update version="1.2.0">
-2 hours ago
-
-Update file1.xml
+		<update version="1.1.0">
 			<file name="file1.xml" url="https://raw.githubusercontent.com/drane44/DranesHomebrew/master/user-Drane/file1.xml" />
-2 hours ago
-
-Initial commit
 		</update>
 	</info>
-	
-	<?xml version="1.0" encoding="utf-8"?>
-<element name="Verdanite spear, +1" type="Magic Item" source="user.index" id="Verdanite_spear_UNCOMMON">
+
+	<element name="Verdanite spear, +1" type="Magic Item" source="user.index" id="Verdanite_spear_UNCOMMON">
   <description>
     <p>This Green spear forged form Verdanite glimmers with light. While holding this magic weapon, you gain a bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the spear as a spellcasting focus for your druid and ranger spells.</p>
     <p class="indent">When you cast a spell that restores hit points, you can roll a d4 and add the number rolled to the amount of hit points restored, provided you are holding the spear.</p>
@@ -35,8 +27,5 @@ Initial commit
     <stat name="ranger:spellcasting:dc" value="1" bonus="Verdanite spear" />
   </rules>
 </element>
-	
-2 hours ago
 
-Update file1.xml
 </elements>
