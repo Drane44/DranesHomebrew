@@ -6,7 +6,7 @@
 			<file name="file2.xml" url="https://raw.githubusercontent.com/drane44/DranesHomebrew/master/user-Drane/file2.xml" />
 		</update>
 	</info>
-	<element>
+<element>
 	<element name="Verdanite Saber, " type="Magic Item" source="user.index" id="Verdanite_Saber_Rare">
 	<description>
     <p>This item appears to be a longsword hilt. While grasping the hilt, you can use a bonus action to cause a blade of pure energy to spring into existence, or make the blade disappear.</p>
