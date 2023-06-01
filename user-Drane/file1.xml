@@ -28,5 +28,22 @@
     <stat name="ranger:spellcasting:dc" value="1" bonus="Verdanite spear" />
   </rules>
 </element>
+	<element name="Life Sap" type="Magic Item" source="user.index" id="Rare">
+	<description>
+    <p>This obsidain axe has a heavy dark energy behind it. You gain a +2 bonus to attack and damage rolls.  </p>
+    <p class="indent">When you hit a creature with this weapon, roll 1d6 and you gain temporary hit points equal to the number rolled.</p>
+	</description>
+  <setters>
+    <set name="keywords">Handaxe</set>
+    <set name="category">Magic Weapons</set>
+    <set name="type" addition="">Weapon</set>
+    <set name="rarity">Rare</set>
+    <set name="weapon">Handaxe</set>
+    <set name="attunement" addition="">true</set>
+    <set name="enhancement">2</set>
+  </setters>
+  <rules>
+  </rules>
+</element>
 
 </elements>
