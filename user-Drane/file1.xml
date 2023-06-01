@@ -27,6 +27,7 @@
     <stat name="ranger:spellcasting:attack" value="1" bonus="Verdanite spear" />
     <stat name="ranger:spellcasting:dc" value="1" bonus="Verdanite spear" />
   </rules>
+		
 </element>
 <element name="Verdanite Saber, " type="Magic Item" source="user.index" id="Verdanite_Saber_Rare">
   <description>
