@@ -35,6 +35,7 @@
       <grant type="Language" id="ID_LANGUAGE_COMMON" />
       <select type="Language" name="ID_LANGUAGE_INFERNAL" />
       <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_STURDY_STATURE" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_MOUNTAIN_BORN" />
     </rules>
   </element>
    <element name="STURDY STATURE" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_STURDY_STATURE">
