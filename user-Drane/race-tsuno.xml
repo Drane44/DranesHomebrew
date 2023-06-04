@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Tsuno</name>
-		<update version="0.2.6">
+		<update version="0.3.6">
 			<file name="race-tsuno.xml" url="https://github.com/Drane44/DranesHomebrew/blob/master/user-Drane/race-tsuno.xml" />
 		</update>
 	</info>
@@ -16,13 +16,13 @@
 			<p>The Tsuno have been rarely documented in Dyax's naturl history often opting to stay within the southern mountains secluded away from the rest of the world.</p>
 			<p class="indent">Lacking a homeland, tieflings know that they have to make their own way in the world and that they have to be strong to survive. They are not quick to trust anyone who claims to be a friend, but when a tiefling’s companions demonstrate that they trust him or her, the tiefling learns to extend the same trust to them. And once a tiefling gives someone loyalty, the tiefling is a firm friend or ally for life.</p>
 			<h4>Tsuno NAMES</h4>
-			<p>Tiefling names fall into three broad categories. Tieflings born into another culture typically have names reflective of that culture. Some have names derived from the Infernal language, passed down through generations, that reflect their fiendish heritage. And some younger tieflings, striving to find a place in the world, adopt a name that signifies a virtue or other concept and then try to embody that concept. For some, the chosen name is a noble quest. For others, it’s a grim destiny.</p>
+			<p>Tsuno names fall into three broad categories. Tieflings born into another culture typically have names reflective of that culture. Some have names derived from the Infernal language, passed down through generations, that reflect their fiendish heritage. And some younger tieflings, striving to find a place in the world, adopt a name that signifies a virtue or other concept and then try to embody that concept. For some, the chosen name is a noble quest. For others, it’s a grim destiny.</p>
 			<ul class="unstyled">
 				<li><strong>Male Infernal Names:</strong> Akmenos, Amnon, Barakas, Damakos, Ekemon, Iados, Kairon, Leucis, Melech, Mordai, Morthos, Pelaios, Skamos, Therai</li>
 				<li><strong>Female Infernal Names:</strong> Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Lerissa, Makaria, Nemeia, Orianna, Phelaia, Rieta</li>
 				<li><strong>“Virtue” Names:</strong> Art, Carrion, Chant, Creed, Despair, Excellence, Fear, Glory, Hope, Ideal, Music, Nowhere, Open, Poetry, Quest, Random, Reverence, Sorrow, Temerity, Torment, Weary</li>
 			</ul>
-			<h4>TIEFLTsunoING TRAITS</h4>
+			<h4>Tsuno TRAITS</h4>
 			<p>Tsuno share certain racial traits as a result of their primordial and infernal descent.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1, you Constitution increases by 1, and your Charisma score increases by 1.</p>
 			<p class="indent"><strong><em>Age.</em></strong> Tsuno live about 300 years and reach adulthood aroung age 25.</p>
