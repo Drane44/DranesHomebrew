@@ -2,73 +2,53 @@
 <elements>
 	<info>
 		<name>Tsuno</name>
-		<update version="0.4.6">
-			<file name="race-tsuno.xml" url="https://github.com/Drane44/DranesHomebrew/blob/master/user-Drane/race-tsuno.xml" />
+		<description></description>
+	    <update version="1.0">
+			<file name="race-Tsuno.xml" url=""/>
 		</update>
 	</info>
 
-	<element name="Tsuno" type="Race" source="USER.INDEX" id="ID_RACE_TSUNO">
-		<description>
-			<p class="flavor">Tucked away high into the mountains in the south of Dyax  lie the Tsunno people. a hearty and rarely seen in most civilized places this hybrid race stays on the fringes of society.</p>
-			<h4>INFERNAL BLOODLINE</h4>
-			<p>The Tsuno the product of the intermingling of the Teifling and Goliath lineages are a hearty people with a small taste of the infernal legacy of their ancestors. Their hair, cascading down from behind their horns, is usually dark, from black or brown to dark red, blue, or purple.</p>
-			<h4>SELF-RELIANT AND SUSPICIOUS</h4>
-			<p>The Tsuno have been rarely documented in Dyax's naturl history often opting to stay within the southern mountains secluded away from the rest of the world.</p>
-			<p class="indent">Lacking a homeland, tieflings know that they have to make their own way in the world and that they have to be strong to survive. They are not quick to trust anyone who claims to be a friend, but when a tiefling’s companions demonstrate that they trust him or her, the tiefling learns to extend the same trust to them. And once a tiefling gives someone loyalty, the tiefling is a firm friend or ally for life.</p>
-			<h4>Tsuno NAMES</h4>
-			<p>Tsuno names fall into three broad categories. Tieflings born into another culture typically have names reflective of that culture. Some have names derived from the Infernal language, passed down through generations, that reflect their fiendish heritage. And some younger tieflings, striving to find a place in the world, adopt a name that signifies a virtue or other concept and then try to embody that concept. For some, the chosen name is a noble quest. For others, it’s a grim destiny.</p>
-			<ul class="unstyled">
-				<li><strong>Male Infernal Names:</strong> Akmenos, Amnon, Barakas, Damakos, Ekemon, Iados, Kairon, Leucis, Melech, Mordai, Morthos, Pelaios, Skamos, Therai</li>
-				<li><strong>Female Infernal Names:</strong> Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Lerissa, Makaria, Nemeia, Orianna, Phelaia, Rieta</li>
-				<li><strong>“Virtue” Names:</strong> Art, Carrion, Chant, Creed, Despair, Excellence, Fear, Glory, Hope, Ideal, Music, Nowhere, Open, Poetry, Quest, Random, Reverence, Sorrow, Temerity, Torment, Weary</li>
-			</ul>
-			<h4>Tsuno TRAITS</h4>
-			<p>Tsuno share certain racial traits as a result of their primordial and infernal descent.</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1, you Constitution increases by 1, and your Charisma score increases by 1.</p>
-			<p class="indent"><strong><em>Age.</em></strong> Tsuno live about 300 years and reach adulthood aroung age 25.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Little Giant.</em></strong> You have proficiency in the Athletics skill, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
-			<p class="indent"><strong><em>Mountain Born.</em></strong> You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you've never been to one. This includes elevations above 20,000 feet.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+  <element name="Tsuno" type="Race" source="Homebrew" id="ID_HMBRW_RACE_TSUNO">
+    <description>
+      <h4>Tsuno</h4>
+      <p>TTucked away high into the mountains in the south of Dyax  lie the Tsunno people. a hearty and rarely seen in most civilized places this hybrid race stays on the fringes of society.</p>
+      <span class="feature">Ability Score Increase.</span>Your Charisma increases by 1, your Strength score increases by 1 and you Constitution increases by 1.<br/>
+      <span class="feature">Age.</span>Tsuno reach maturity around the age of 25 and live for about 300 years.<br/>
+	  <span class="feature">Alignment</span>The Tsuno mostly tend towards more Lawful alignments, but are rarely ever evil.<br/>
+      <span class="feature">Size.</span>Tsuno stand at about six to eight feet tall, but usually somewhere in the middle. They have large, muscular bodies around 190 to 330 pounds. Your size is Medium.<br/>
+      <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+      <span class="feature">Darkvision.</span>Tsuno have received Darkvision from their infernal heritage. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/>
+<p class="indent"><strong><em>Sturdy Stature.</em></strong> You have proficiency in the Athletics skill, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>    </description>
+    <sheet display="false"/>
+    <supports />
+    <setters>
+      <set name="height" modifier="2d8">6'0"</set>
+      <set name="weight" modifier="2d6">195 lb.</set>
+    </setters>
+    <rules>
+      <stat name="charisma" value="1"/>
+      <stat name="strength" value="1"/>
+      <stat name="constitution" value="1"/>
+      <stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <select type="Language" name="ID_LANGUAGE_INFERNAL" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_STURDY_STATURE" />
+    </rules>
+  </element>
+   <element name="STURDY STATURE" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_STURDY_STATURE">
+    <description>
+			<p> You have proficiency in the Athletics skill, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
 		</description>
-		<sheet display="false" />
-		<setters>
-			<set name="names" type="male">Akmenos, Amnon, Barakas, Damakos, Ekemon, Iados, Kairon, Leucis, Melech, Mordai, Morthos, Pelaios, Skamos, Therai</set>
-			<set name="names" type="female">Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Lerissa, Makaria, Nemeia, Orianna, Phelaia, Rieta</set>
-			<set name="names" type="virtue">Art, Carrion, Chant, Creed, Despair, Excellence, Fear, Glory, Hope, Ideal, Music, Nowhere, Open, Poetry, Quest, Random, Reverence, Sorrow, Temerity, Torment, Weary</set>
-			<set name="names-format">{{name}} “{{virtue}}”</set>
-			<set name="height" modifier="2d8">6'5"</set>
-			<set name="weight" modifier="2d4">190 lb.</set>
-		</setters>
-		<rules>
-			<stat name="strength" value="1" requirements= />
-			<stat name="constitution" value="1" requirements= />
-			<stat name="charisma" value="1" requirements=/>
-			<stat name="innate speed" value="30" bonus="base"/>
-			<grant type="Size" id="ID_SIZE_MEDIUM" />
-			<grant type="Vision" id="ID_VISION_DARKVISION" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<grant type="Language" id="ID_LANGUAGE_INFERNAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_GOLIATH_LITTLE_GIANT" />
-			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_GOLIATH_MOUNTAIN_BORN" />
-		</rules>
-	</element>
-	<element name="Mountain Born" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_GOLIATH_MOUNTAIN_BORN">
-		<description>
-			<p>You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you've never been to one. This includes elevations above 20,000 feet.</p>
+		<sheet display="false">
+			<description> You have proficiency in the Athletics skill, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+      <element name="MOUNTAIN BORN" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_MOUNTAIN_BORN">
+    <description>
+			<p> You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you've never been to one. This includes elevations above 20,000 feet.</p>
 		</description>
-		<rules>
-		<sheet>
-			<description>You also naturally acclimate to high altitudes, even if you've never been to one. This includes elevations above 20,000 feet.</description>
+		<sheet display="false">
+			<description>You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you've never been to one. This includes elevations above 20,000 feet.</description>
 		</sheet>
-		<rules>
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
-		</sheet>
-		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
-		</rules>
-	</element>
-	<!-- an element that you should grant in a subrace so that you can override stats/infernal legacy -->
+  </element>
 </elements>
