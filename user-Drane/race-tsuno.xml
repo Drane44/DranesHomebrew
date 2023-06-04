@@ -3,7 +3,7 @@
 	<info>
 		<name>Tsuno</name>
 		<description></description>
-	    <update version="1.0">
+	    <update version="1.1">
 			<file name="race-Tsuno.xml" url=""/>
 		</update>
 	</info>
@@ -35,7 +35,6 @@
       <grant type="Language" id="ID_LANGUAGE_COMMON" />
       <select type="Language" name="ID_LANGUAGE_INFERNAL" />
       <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_STURDY_STATURE" />
-      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_MOUNTAIN_BORN" />
     </rules>
   </element>
    <element name="STURDY STATURE" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_STURDY_STATURE">
@@ -50,6 +49,6 @@
 		</description>
 		<sheet display="false">
 			<description>You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you've never been to one. This includes elevations above 20,000 feet.</description>
+			</element>
 		</sheet>
-  </element>
 </elements>
