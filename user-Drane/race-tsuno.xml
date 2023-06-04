@@ -3,18 +3,18 @@
 	<info>
 		<name>Tsuno</name>
 		<description></description>
-	    <update version="1.1">
-			<file name="race-Tsuno.xml" url=""/>
+	    <update version="1.2.0">
+			<file name="race-Tsuno.xml" url="https://github.com/Drane44/DranesHomebrew/edit/master/user-Drane/race-tsuno.xml"/>
 		</update>
 	</info>
 
   <element name="Tsuno" type="Race" source="Homebrew" id="ID_HMBRW_RACE_TSUNO">
     <description>
       <h4>Tsuno</h4>
-      <p>TTucked away high into the mountains in the south of Dyax  lie the Tsunno people. a hearty and rarely seen in most civilized places this hybrid race stays on the fringes of society.</p>
+      <p>Tucked away high into the mountains in the south of Dyax lie the Tsunno people. A hearty and rarely seen in most civilized places this hybrid race stays on the fringes of society.</p>
       <span class="feature">Ability Score Increase.</span>Your Charisma increases by 1, your Strength score increases by 1 and you Constitution increases by 1.<br/>
       <span class="feature">Age.</span>Tsuno reach maturity around the age of 25 and live for about 300 years.<br/>
-	  <span class="feature">Alignment</span>The Tsuno mostly tend towards more Lawful alignments, but are rarely ever evil.<br/>
+	<span class="feature">Alignment</span>The Tsuno mostly tend towards more Lawful alignments, but are rarely ever evil.<br/>
       <span class="feature">Size.</span>Tsuno stand at about six to eight feet tall, but usually somewhere in the middle. They have large, muscular bodies around 190 to 330 pounds. Your size is Medium.<br/>
       <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
       <span class="feature">Darkvision.</span>Tsuno have received Darkvision from their infernal heritage. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/>
@@ -37,18 +37,20 @@
       <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_STURDY_STATURE" />
     </rules>
   </element>
-   <element name="STURDY STATURE" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_STURDY_STATURE">
+  <element name="STURDY STATURE" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_STURDY_STATURE">
     <description>
-			<p> You have proficiency in the Athletics skill, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
-		</description>
-		<sheet display="false">
-			<description> You have proficiency in the Athletics skill, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
-      <element name="MOUNTAIN BORN" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_MOUNTAIN_BORN">
+	<p> You have proficiency in the Athletics skill, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+	</description>
+	 <sheet display="false">
+	<description> You have proficiency in the Athletics skill, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+	</sheet>
+	</element>
+	<element name="MOUNTAIN BORN" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_MOUNTAIN_BORN">
     <description>
-			<p> You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you've never been to one. This includes elevations above 20,000 feet.</p>
-		</description>
-		<sheet display="false">
-			<description>You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you've never been to one. This includes elevations above 20,000 feet.</description>
-	      </sheet>
+<p> You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you've never been to one. This includes elevations above 20,000 feet.</p>
+</description>
+<sheet display="false">
+		<description>You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you've never been to one. This includes elevations above 20,000 feet.</description>
+</sheet>
 	</element>
 </elements>
