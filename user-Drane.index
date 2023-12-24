@@ -9,5 +9,6 @@
 	<files>
 		<file name="file1.xml" url="https://raw.githubusercontent.com/drane44/DranesHomebrew/master/user-Drane/file1.xml" />
 		<file name="file2.xml" url="https://raw.githubusercontent.com/drane44/DranesHomebrew/master/user-Drane/file2.xml" />
+		<file name="Valdas Spire.xml" url="https://raw.githubusercontent.com/drane44/DranesHomebrew/master/user-Drane/valdas Spire.xml" />
 	</files>
 </index>
