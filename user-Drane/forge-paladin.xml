@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Oath of The Forge</name>
+		<description>The Oath of The Forge </description>
+		<author url="https://raw.githubusercontent.com/drane44/DranesHomebrew/master/user-Drane/file3.xml"> </author>
+		<update version="0.1.3">
+			<file name="paladin-Forge.xml" url="https://raw.githubusercontent.com/drane44/DranesHomebrew/master/user-Drane/file3.xml" />
+		</update>
+	</info>
+
+	<element name="Oath of The Forge" type="Archetype" source="user.index" id="ID_GMBINDER_ARCHETYPE_OATH_OF_THE_FORGE">
+		<supports>Sacred Oath</supports>
+		<description>
+			<p>The Oath of The Forge Paladin serves deities of craft and creation, paladins who have sworn the Oath of the Forge work good upon the world through good works.</p>
+			<p class="indent"></p>
+			<h5>TENETS OF The Forge</h5>
+			<p>TThe tenets of the Oath of the Forge emphasize rendering aid and fostering strength amongst the small, the weak, or the oppressed</p>
+			<p class="indent"><b><i>Warm the Furnace. </i></b>Offer relief to the suffering by standing among them and sharing in their burdens. Stoke the heat of courage through compassion and perseverance, and commit yourself completely to defending the weak and the defenseless.</p>
+			<p class="indent"><b><i>Form the Shape. </i></b>Share the knowledge of the hammer and the anvil with those around you so that they may forge their own path. Strengthen bonds among the weak so that they become mighty in their own works.</p>
+			<p class="indent"><b><i>Temper the Steel. </i></b>The working of any craft is an act of worship, for in every weaver's fingers or cooper's tongs lie the echo of primordial creation heard once again in the material world. Take pride in your work and submit to a lifetime of patient growth in your skill with tools.</p>
+			<p class="indent"><b><i>Quench the Fire </i></b>Glory in creation by preserving it wherever possible. Extinguish the fire of unnecessary conflict by avoiding violence unless all other options have been exhausted, and when swords must be made from ploughshares, ensure they are not long kept.</p>
+			<div element="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_OATH_SPELLS" />
+			<div element="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_CHANNEL_DIVINTY" />
+			<div element="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_AURA_OF_THE_SMITH" />
+			<div element="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_MASTERWORK" />
+			<div element="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_LIVING_FORGE" />
+		</description>
+		<sheet>
+			<description>The Oath of The Forge Paladin serves deities of craft and creation, paladins who have sworn the Oath of the Forge work good upon the world through good works</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_OATH_SPELLS" level="1" />
+			<grant type="Archetype Feature" id="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_CHANNEL_DIVINTY" level="3" />
+			<grant type="Archetype Feature" id="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_AURA_OF_THE_SMITH" level="7" />
+			<grant type="Archetype Feature" id="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_MASTERWORK" level="15" />
+			<grant type="Archetype Feature" id="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_LIVING_FORGE" level="20" />
+		</rules>
+	</element>
+	
+	<element name="Oath Spells" type="Archetype Feature" source="user.index" id="ID_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_OATH_SPELLS">
+		<description>
+			<p>You gain oath spells at the paladin levels listed in the Oath of The Forge Spells table. See the Sacred Oath class feature for how oath spells work.</p>
+			<h5>Oath of The Forge Spells</h5>
+			<table>
+				<thead>
+					<tr><td>Paladin Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>Shield, Searing Smite</em></td></tr>
+				<tr><td>5th</td><td><em>Heat Metal, Spiritual Weapon</em></td></tr>
+				<tr><td>9th</td><td><em>Protection from Energy, Spirit Guardians</em></td></tr>
+				<tr><td>13th</td><td><em>Fabricate, Stone Shape</em></td></tr>
+				<tr><td>17th</td><td><em>Animate Objects, Creation</em></td></tr>
+			</table>     
+		</description>
+		<sheet display="false">
+			<description>You gain oath spells at the paladin levels listed in the Oath of The Forge Spells table.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SHIELD" level="3" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SEARING_SMITE" level="3" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_HEAT_METAL" level="5" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SPIRITUAL_WEAPON" level="5" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" level="9" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SPIRIT_GUARDIANS" level="9" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FABRICATE" level="13" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="13" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_ANIMATE_OBJECTS" level="17" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CREATION" level="17" spellcasting="Paladin" prepared="true" />
+		</rules>
+	</element>
+
+	<element name="Channel Divinity" type="Archetype Feature" source="user.index" id="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_CHANNEL_DIVINITY">
+		<compendium display="false" />
+		<description>
+		<p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+			<p class="indent"><b><i>Blessed Alloy. </i></b>At the beginning of a short or long rest, you may conduct a ritual to create a nonmagical item worth up to 150 gold which contains at least some metal. The ritual lasts one hour, and its end the item appears in an unoccupied space within 5 feet. You must provide metals and other raw materials of a sum value equal to that of the object you seek to create. Coins cannot serve as raw material unless the object is made from the same metal as the coins. The appearance of the object is determined by you. You can precisely duplicate a non-magical object you possess at the beginning of the ritual.</p>
+			<p class="indent"><b><i>Hammer Strike. </i></b> As an action, you call upon the hammer of the forge divine to reshape the world and drive back your enemies. Each creature in a 20 foot cube centered in front of you must make a Strength saving throw. A creature takes d10 + your Charisma modifier bludgeoning damage and is pushed back 20 feet and knocked prone on a failed save, or half as much damage on a successful one. The damage increases to 2d10 at 7th level and 3d10 at 15th level.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_CHANNEL_DIVINITY_BLESSED_ALLOY" />
+			<grant type="Archetype Feature" id="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_CHANNEL_DIVINITY_HAMMER_STRIKE" />
+		</rules>
+	</element>
+
+	<element name="Channel Divinity: Blessed Alloy" type="Archetype Feature" source="user.index" id="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_CHANNEL_DIVINITY_BLESSED_ALLOY">
+		<description>
+			<p> At the beginning of a short or long rest, you may conduct a ritual to create a nonmagical item worth up to 150 gold which contains at least some metal. The ritual lasts one hour, and its end the item appears in an unoccupied space within 5 feet. You must provide metals and other raw materials of a sum value equal to that of the object you seek to create. Coins cannot serve as raw material unless the object is made from the same metal as the coins.
+The appearance of the object is determined by you. You can precisely duplicate a non-magical object you possess at the beginning of the ritual..</p>
+		</description>
+		<sheet alt="Blessed Alloy" action="Bonus Action" usage="Channel Divinity">
+			<description>You may conduct a ritual to create a nonmagical item worth up to 150 gold which contains at least some metal. The ritual lasts one hour.</description>
+		</sheet>
+	</element>
+
+	<element name="Channel Divinity: Hammer Strike" type="Archetype Feature" source="user.index" id="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_CHANNEL_DIVINITY_HAMMER_STRIKE">
+		<description>
+			<p>You can use your Channel Divinity to rebuke those who use violence. Immediately after an attacker within 30 feet of you deals damage with an attack against a creature other than you, you can use your reaction to force the attacker to make a Wisdom saving throw. On a failed save, the attacker takes radiant damage equal to the damage it just dealt. On a successful save, it takes half as much damage.</p>
+		</description>
+		<sheet alt="Hammer Strike" action="Action" usage="Channel Divinity">
+			<description> As an action, you call upon the hammer of the forge divine to reshape the world and drive back your enemies. Each creature in a 20 foot cube centered in front of you must make a Strength saving throw. A creature takes d10 + your Charisma modifier bludgeoning damage and is pushed back 20 feet and knocked prone on a failed save, or half as much damage on a successful one. The damage increases to 2d10 at 7th level and 3d10 at 15th level.</description>
+		</sheet>
+	</element>
+
+	<element name="Aura of the Smith" type="Archetype Feature" source="user.index" id="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_AURA_OF_THE_SMITH">
+		<description>
+			<p>Beginning at 7th level, your presence strengthens armor and sharpens blades. As long as you are conscious, allies within 10 feet of you gain a +1 bonus to AC and resistance to fire damage. Furthermore, when allies affected by your aura roll a 1 on a damage die for an attack made with a weapon, they can reroll the die While within your aura, your allies' mundane weapons and armor count as magical for the purposes of determining resistance.
+At 18th level, allies gain a +2 bonus to AC. Furthermore, weapons and armor worn by you and your allies cannot be weakened, damaged, or destroyed by any effect, and magic equipment cannot be rendered mundane.</p>
+			<p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When allies affected by your aura roll a 1 on a damage die for an attack made with a weapon, they can reroll the die While within your aura, your allies' mundane weapons and armor count as magical for the purposes of determining resistance.</description>
+		</sheet>
+		<rules>
+			<stat name="aura of the smith:aura" value="10" bonus="aura of the smith" />
+			<stat name="aura of the smith:aura" value="30" bonus="aura of the smith" level="18" />
+		</rules>
+	</element>
+
+	<element name="Masterwork" type="Archetype Feature" source="user.index" id="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_MASTERWORK">
+		<description>
+			<p>Starting at 15th level, your becomes as stalwart as the anvil. You have resistance to piercing, bludgeoning, and slashing damage from non-magical sources. Additionally, you may add twice your proficiency bonus to any skill check using a set of tools with which you are proficient.</p>
+			<p class="indent"></p>
+		</description>
+		<sheet>
+			<description>You may add twice your proficiency bonus to any skill check using a set of tools with which you are proficient.</description>
+		</sheet>
+	</element>
+
+	<element name="Living Forge" type="Archetype Feature" source="user.index" id="ID_DRANESHOMEBREW_ARCHETYPE_FEATURE_OATH_OF_THE_FORGE_LIVING_FORGE">
+		<description>
+			<p>At 20th level, as an action, you transform into the very tools of creation itself. You gain the following benefits for 1 minute:</p>
+			<ul>
+				<li>You have resistance to non-magical damage and immunity to fire damage.</li>
+				<li>All allies within 30 feet gain +2 to attack rolls and deal an additional 2d4 radiant damage when they hit.</li>
+				<li>Any enemy within 30 feet at the start of your turn is automatically affected by Heat Metal as if it had been cast at 3rd level. This effect does not require you to maintain concentration, and the damage is applied automatically without expending your bonus action. The effect ends when your transformation ends.</li>
+			</ul>
+			<p></p>
+		</description>
+		<sheet>
+			<description>You haveYou have resistance to non-magical damage and immunity to fire damage. llies within 30 feet gain +2 to attack rolls and deal an additional 2d4 radiant damage. Any enemy within 30 feet at the start of your turn is automatically affected by Heat Metal as if it had been cast at 3rd level without expending your bonus action.</description>
+		</sheet>
+	</element>
+
+</elements>
